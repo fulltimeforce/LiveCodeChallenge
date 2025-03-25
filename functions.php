@@ -34,11 +34,10 @@ add_action('wp_enqueue_scripts', 'general_scripts');
 // Uso del Core de Wordpress:
 // Creación de un Custom Post Type (CPT) con el slug de 'servicio', este debe contener todo lo que un
 // post suele llevar: CATEGORIAS y ETIQUETAS, y debe listarse en el panel de WP como un nuevo
-// modulo en el sidebar. Además, este CPT deberá tener un nuevo campo, un metabox que almacene un
-// simple texto. Este texto deberá ser mostrado en el front de la web (puedes usar el front-page.php para mostrarlo)
+// modulo en el sidebar.
 
 // Llena el siguiente archivo para crear el CPT
-require_once get_template_directory().'/inc/module_service.php';
+require_once get_template_directory().'/inc/cpt_service.php';
 
 
 

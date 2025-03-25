@@ -7,8 +7,9 @@ get_header();
 ?>
 
 <!-- Atención al detalle:
-Hacer funcionar el slider, centrar y estandarizar el tamaño de las imagenes y 
-además, añadirle una paginación al slider. -->
+Hacer funcionar el slider, centrar y estandarizar el tamaño de las 
+imagenes (mismo width y height: auto) y además, añadirle una 
+paginación al slider. -->
 
 <!-- Recomendación: Revisar la consola -->
 
