@@ -8,8 +8,7 @@ get_header();
 
 <!-- Atención al detalle:
 Hacer funcionar el slider, centrar y estandarizar el tamaño de las 
-imagenes (mismo width y height: auto) y además, añadirle una 
-paginación al slider. -->
+imagenes (hacerlas cuadradras teniendo el width: 100%) -->
 
 <!-- Recomendación: Revisar la consola -->
 
@@ -39,7 +38,7 @@ paginación al slider. -->
 </div>
 
 <script>
-    let splide = new Splide('.splide', {
+    let splide = new Splide('.splideP', {
         type: 'loop',
         perPage: 3,
     })

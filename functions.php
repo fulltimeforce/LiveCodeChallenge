@@ -32,14 +32,12 @@ add_action('wp_enqueue_scripts', 'general_scripts');
 
 
 // Uso del Core de Wordpress:
-// Creación de un Custom Post Type (CPT) con el slug de 'servicio', este debe contener todo lo que un
+// Creación de un Custom Post Type (CPT) con la taxonomy de 'Portafolio', este debe contener todo lo que un
 // post suele llevar: CATEGORIAS y ETIQUETAS, y debe listarse en el panel de WP como un nuevo
 // modulo en el sidebar.
 
 // Llena el siguiente archivo para crear el CPT
-require_once get_template_directory().'/inc/cpt_service.php';
-
-
+require_once get_template_directory().'/inc/cpt_portafolio.php';
 
 
 
@@ -64,5 +62,3 @@ function mostrar_productos_homepage() {
     ];
 
 }
-
-add_action( 'wp_head', 'mostrar_productos_homepage' );
